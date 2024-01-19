@@ -31,6 +31,7 @@
   letter-spacing: 0.78px;
 }
 
+
 .footer-name {
   color: #FFF;
   font-family: Raleway;
@@ -76,15 +77,32 @@
   content: "";
   background-color: #2196F3;
   border-radius: 10px;
-  height: 5px;
+  height: 3px;
   width: 100%;
   position: absolute;
-  top: 210%;
+  top: 225%;
   bottom: 0;
   left: 0;
   opacity: 0;
   transform: scaleX(0);
   transition: opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1), transform 500ms cubic-bezier(0.83, -0.08, 0.32, 1);
+}
+.menuu1{
+  color: #2196F3;
+    fill: #2196F3;
+    
+}
+.menuu1::before {
+  content: "";
+
+  background-color: #2196F3;
+  border-radius: 10px;
+  height: 3px;
+  width: 100%;
+
+  position: absolute;
+  top: 225%;
+  bottom: 0;
 }
 
 .btn {
